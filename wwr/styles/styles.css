@@ -20,13 +20,15 @@
   --nav-link-color: #1282a2;
   --nav-background-color: #00061d;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #001f54;
+  --nav-hover-background-color: #facd03;
 }
 body {
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
     background-color:#001f54;
+    font-size: 22px;
+    padding: 0;
 }
 header {
     background-color:#00061d;
@@ -34,14 +36,12 @@ header {
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
-.home-title {
-    color: #001f54;
+.home-title {   
+    color: #facd03;
+    font-size: 2em;
+    margin-top: 10px;
 }
-nav a{
-    text-align: center;
-    color: #1282a2;
-    text-decoration: none;
-}
+
 .button-box {
     text-align: center;
 }
@@ -52,38 +52,57 @@ main section {
     height: 725px;
     background-color:#1282a2;
 }
-/* img {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-} */
+img {
+    border: 4px #00061d;
+    padding: 10 px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
 }
-
+#logo_link {
+    padding-top: 5px;
+}
 /* * {
     border: 2px solid blue;
 } */
 h1 {
     text-align: center;
+    margin: 50px 0;
+}
+h2 {
+    margin: 0;
 }
 h4 {
     color: white;
 }
-nav, footer {
+nav {
     background-color: #00061d;
     color: white;
-    padding: 10px;
+    padding: 25px;
+}
+nav a{
+    text-align: center;
+    color: #1282a2;
+    text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #001f54;
     color: #fefcfb;
 }
+footer {
+    background-color: #00061d;
+    color: white;
+    padding-top: 15px;
+    margin-top: 200px;
+}
 footer p {
     margin: 20px auto;
+    padding: 25px;
     font-size: 1.2em;
 }
 footer p a:hover {
@@ -96,10 +115,17 @@ footer a{
 footer a:hover{
     color: #1282a2;
 }
+.social {
+    background-color:#00061d;
+    padding-top: 15px;
+}
 main p {
     width: 80%;
     margin: 50px auto;
     text-align: center;
+}
+.home-grid {
+    color:#fefcfb;
 }
 a:hover {
     background-color: #001f54;
@@ -107,22 +133,40 @@ a:hover {
     
 }
 .book, .join {
-    background-color: #001f54;
-    color: white;
+    background-color: #fefcfb;
+    color: #00061d;
     text-decoration: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color: steelblue;
-    color: #00061d;
+    background-color: #facd03;
+    color: #001f54;
+    border: 4px #fefcfb;
 }
 .msg {
     background-color:#001f54;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     background-color:#001f54;
     color: #1282a2;
+    font-size: .8em;
 }
 .msg p{
     background-color:#001f54;
     color: #fefcfb;
+    padding-bottom: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
