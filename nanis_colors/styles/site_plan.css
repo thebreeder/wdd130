@@ -2,29 +2,29 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #00061d   ;
-  --secondary-color: #001f54 ;
-  --accent1-color: #1282a2;
-  --accent2-color: #fefcfb;
+  --primary-color: #7209B7   ;
+  --secondary-color: #B5179E ;
+  --accent1-color: #3A0CA3;
+  --accent2-color: #4CC9F0;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "RocknRoll One";
-  --paragraph-font: Roboto, Helvetica, sans-serif;
+  --heading-font: "Dancing Script";
+  --paragraph-font: Caveat, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #00061d;  /* headlines on a white background */ 
+  --headline-color-on-white: #3A0CA3;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #001f54; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #7209B7; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #1282a2;
-  --nav-background-color: #00061d;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #001f54;
+  --paragraph-background-color: #B5179E  ;
+  --nav-link-color: #4CC9F0;
+  --nav-background-color: #7209B7;
+  --nav-hover-link-color: #7209B7;
+  --nav-hover-background-color: #4CC9F0;
 }
 
 
