@@ -247,9 +247,196 @@ a:hover {
 main section img {
     box-sizing: border-box;
 }
+.rates-dates-grid {
+    color:#fefcfb;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+.grand-canyon-card {
+    margin: 200px 0;
+    grid-column: 1/11;
+    grid-row: 1/3 ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 5px solid #facd03; */
+}
+.canyon-text {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between;
+}
+.Grand-canyon-text1 {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    /* width: 40%; */
+}
+.canyon-card-img, .desolation-card-img, .salmon-card-img, .salmon-card-img2 {
+    border: 4px solid black;
+    width: 50%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #facd03;
+    /* grid-column: 6/11; */
+    /* grid-row: 1/4; */
+}
+.button-box-in {
+    text-align: center;
+    grid-row: 3/4;
+}
+.grand-canyon-six-nights-card {
+    margin: 200px 0;
+    grid-column: 1/6;
+    grid-row: 2/3;
+    
+}
+.salmon-river-card {
+    margin: 100px 0;
+    grid-column: 1/11;
+    grid-row: 3/5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 5px solid #facd03; */
+}
+.desolation-card {
+    margin: 100px 0;
+    grid-column: 1/11;
+    grid-row: 5/7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 5px solid #facd03; */
+    /* box-shadow: 5px 5px 10px #facd03; */
+}
+/* ----------Contact Us begins ---------------- */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #facd03; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #facd03;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+/* ------------Contact us ends ---------------------- */
 
+/* ---------------Slideshow Css begins -----------*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* --------Slideshow Css ends------------- */
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .rates-dates-grid {
         display: block;
         height: auto;
     }
@@ -276,6 +463,17 @@ main section img {
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
+    }
+    .grand-canyon-card, .salmon-river-card, .desolation-card { 
+        display: block;
+        margin: 50px auto;
+        width: 60%;
+        font-size: 1rem;
+    }
+    .canyon-text, .Grand-canyon-text1, .canyon-card-img, .grand-canyon-six-nights-card, .salmon-card-img, .salmon-card-img2, .desolation-card-img {
+        display: block;
+        height: auto;
+        width: 100%;
     }
     #background {
         display: none;
