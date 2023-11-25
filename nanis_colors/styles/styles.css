@@ -72,9 +72,12 @@ nav a:hover {
     width: 100%;
 }
 #hero-msg {
-    grid-column: 2/3;
+    grid-column: 1/4;
     grid-row: 1/2;
     margin-top: 150px;
+    font-size: 3em;
+    padding: 1%;
+    width: 100%;
 }
 #hero-msg h1 {
     text-align: center;
@@ -86,7 +89,14 @@ nav a:hover {
     color: white;
     grid-column: 2/3;
     grid-row: 1/2;
+    font-size: 2em;
         
+}
+.button-box1 {
+    width: auto;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    text-align: center;
 }
 .home-grid {
     color:#fefcfb;
@@ -106,9 +116,13 @@ nav a:hover {
 }
 
 .row1_title {
+    font-size: 1.5em;
     grid-column: 2/3;
     display: grid;
     grid-template-rows: 20px, 40px, 70px, 30px;
+}
+.row_title {
+    font-size: 2em;
 }
 .row2-card {
     grid-column: 1/11;
@@ -116,31 +130,85 @@ nav a:hover {
 
 .row3-card {
     grid-column: 1/11;
+    
 }
 .row3_services{
-    max-width: 18%;
+    grid-column: 1/11;
+    
+}
+.service_block1 {
+    background-color: #B5179E;
+    max-width: 25%;
     margin: 70px 3%;
     padding: 8px 8px;
     border: 5px;
     border-radius: 50%;
 }
-
 .row4-card {
     grid-column: 1/11;
     display: grid;
     grid-template-columns: 1fr, 1fr, 1fr;
 }
-
+.row4_title1_with_text {
+    grid-column: 1/2;
+    font-size: 1.5em;
+    max-width: 80%;
+    margin: 1px 3%;
+    padding: 1px 8px;
+}
+.row4_title2_with_text {
+    grid-column: 2/3;
+    font-size: 1.5em;
+    max-width: 80%;
+    margin: 1px 3%;
+    padding: 1px 8px;
+}
+.row4_title3_with_text {
+    grid-column: 3/4;
+    font-size: 1.5em;
+    max-width: 80%;
+    margin: 1px 3%;
+    padding: 1px 8px;
+}
+/* .row4_title3 {
+ 
+} */
 .row5-card {
     grid-column: 1/11;
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr;
+}
+.row5_services {
+    grid-column: 3/5;
+}
+.service_block2 {
+    background-color: #B5179E;
+    max-width: 25%;
+    margin: 70px 5%;
+    padding: 8px 15px;
+    border: 5px;
+    border-radius: 50%;
+    align-content: center;
 }
 
 .row6-card {
     grid-column: 1/11;
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: repeat(10, 1fr);
+}
+.row6_title1_with_text {
+    grid-column: 3/6;
+    font-size: 1.5em;
+    max-width: 80%;
+    margin: 1px 15%;
+    padding: 1px 15px;
+}
+.row6_title2_with_text {
+    grid-column: 6/9;
+    font-size: 1.5em;
+    max-width: 80%;
+    margin: 1px 15%;
+    padding: 1px 15px;
 }
 
 .row7-card {
@@ -154,19 +222,19 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr, 1fr;
 }
-
 .book, .join {
     background-color: #fefcfb;
     color: #00061d;
     text-decoration: none;
     padding: 15px 30px;
-    font-size: 18px;
+    font-size: 25px;
     margin-top: 50px;
     border-radius: 5px;
     border-color: #001f54;
+    
 }
 .book:hover, .join:hover {
-    background-color: #facd03;
+    background-color: rgba(252, 194, 248, 0.6);
     color: #001f54;
     border: 4px #001f54;
 }
