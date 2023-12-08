@@ -738,4 +738,11 @@ End SlideShow
     #hero-msg {
         font-size: 1em;
     }
+    .testimonial1-img {
+        width: 100%
+    }
+    .testimonial2-img {
+        width: 400px;
+    }
 }
+
