@@ -731,7 +731,9 @@ End SlideShow
         width: 100%; 
         height: auto; 
     }
-
+    nav a{
+        padding: 10px;
+    }
     #hero-msg {
         background-size: contain; 
     }
@@ -740,7 +742,7 @@ End SlideShow
     }
     .home-grid {
         display: grid;
-        grid-template-columns: 1fr; /* Change to a single column layout */
+        grid-template-columns: auto; /* Change to a single column layout */
         grid-template-rows: auto; /* Adjust rows as needed for responsiveness */
     }
     .testimonial1-img {
@@ -748,6 +750,127 @@ End SlideShow
     }
     .testimonial2-img {
         width: 350px;
+    }
+    .row1-card {
+        grid-column: 2/11;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .row1_image {
+        width: 200px;
+        margin: 20px;
+    
+    }
+    
+    .row1_title {
+        font-size: .8em;
+        display: grid;
+        grid-template-rows: 20px, 40px, 70px, 30px;
+    }
+    .row_title {
+        font-size: 1em;
+    }
+    .row2-card {
+        font-size: 1em;
+    }
+    .row2_title{
+        font-size: 1em;
+    }
+    .row4-card {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .row4_title1_with_text {
+        font-size: .8em;
+        max-width: 80%;
+    }
+    .row4_title2_with_text {
+        font-size: .8em;
+        max-width: 80%;
+    }
+    .row4_title3_with_text {
+        font-size: .8em;
+        max-width: 80%;
+    }
+    /* .row4_title3 {
+     
+    } */
+    .row5-card {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+   
+    .row6-card {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .row6_title1_with_text {
+        font-size: .8em;
+    }
+    .row6_title2_with_text {
+        font-size: .8em;
+
+    }
+    
+    .row7-card {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 30px, 40px, 30px;
+    }
+    .testimonial1-img {
+        width: 70%;
+        
+    }
+    .row7_text_box {
+        font-size: .8em;
+    }
+    .row7_title {
+        font-size: 1em;
+    }
+    .row7_text{
+        font-size: .8em;
+    }
+    .row8-card {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 30px, 40px, 30px;
+    }
+
+    .row8_text_box {
+        font-size: .8em;
+
+    }
+    .row8_title {
+        font-size: .8em;
+    }
+    .row8_text{
+        font-size: .8em;
+    }
+    .book, .join {
+        font-size: 5px;
+       
+    }
+
+    footer {
+        width: auto;
+        display: grid;
+        grid-template-rows: 500px, 20px, 20px;
+    }
+    .footer_links {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .flinks2 {
+        text-align: center;
+    }
+    .social {
+        text-align: center;
+    }
+    footer p {
+        font-size: .7em;
+    }
+    .footer_line-img {
+        width: 100%;
     }
 }
 
