@@ -738,11 +738,16 @@ End SlideShow
     #hero-msg {
         font-size: 1em;
     }
+    .home-grid {
+        display: grid;
+        grid-template-columns: 1fr; /* Change to a single column layout */
+        grid-template-rows: auto; /* Adjust rows as needed for responsiveness */
+    }
     .testimonial1-img {
-        width: 100%
+        width: 100%;
     }
     .testimonial2-img {
-        width: 400px;
+        width: 350px;
     }
 }
 
