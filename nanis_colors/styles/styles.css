@@ -837,6 +837,7 @@ End SlideShow
     }
     nav a{
         padding: 10px;
+        
     }
     #hero-msg {
         background-size: contain; 
@@ -849,15 +850,7 @@ End SlideShow
         grid-template-columns: auto; /* Change to a single column layout */
         grid-template-rows: auto; /* Adjust rows as needed for responsiveness */
     }
-    #aboutus-grid {
-        display: grid;
-        grid-template-columns: 20% 20% 2% 13% 15% 30%;
-
-
-    }
-    .presentation {
-        grid-template-columns: 20% 20% 2% 13% 15% 30%;
-    }
+    
     .testimonial1-img {
         width: 100%;
     }
